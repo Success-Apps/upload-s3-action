@@ -21,6 +21,10 @@ inputs:
     required: false
     default: /
     description: 'destination directory for upload'
+  aws_acl:
+    required: false
+    default: 'public-read'
+    description: 'aws acl permission'
 outputs:
   object_key:
     description: 'object key'
